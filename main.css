@@ -1,0 +1,53 @@
+.bgImage {
+  /* background-image: url(https://bit.ly/2Ax68ch); */
+  background-size: cover;
+  background-color: aqua;
+}
+.table {
+  border: 1px solid black;
+  font-size: 100px;
+  float: left;
+  background-color: rgb(240, 199, 230);
+}
+.gameHeading {
+  text-align: center;
+  color: black;
+  font-size: 60px;
+  border-bottom: 5px solid black;
+  font-family: sans-serif;
+}
+.playerButtonLabels {
+  font-family: serif;
+  font-size: 30px;
+  color: black;
+  width: 850px;
+  float: left;
+}
+.gameStartButton {
+  width: 250px;
+  font-family: serif;
+  height: 50px;
+  font-size: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: lightcoral;
+}
+.msgBox {
+  margin-top: 500px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 50px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+}
+.tableData {
+  border: 3px solid black;
+  text-align: center;
+  height: 120px;
+  width: 120px;
+}
+input {
+  margin: 30px;
+  width: 300px;
+  height: 30px;
+} 
