@@ -62,12 +62,12 @@ const playGame = function(event) {
   document.getElementById("msg").innerText = secondPlayerName + "'s turn";
   let cellId = event.target.id;
   clickCell(cellId, symbol, playerInput);
-  if (isWin(playerInput)) {
-    document.getElementById("msg").innerHTML = "<h2>"+player + " won</h2>";
-    document.getElementById("gameTable").onclick = null;
-    document.getElementById("body").style.backgroundImage = "url('https://bit.ly/2b3zvsr')";
-  }
   if (allMoves.length == 9) {
     document.getElementById("msg").innerHTML = "<h2>Match Draw</h2>";
+  }
+  if (isWin(playerInput)) {
+    document.getElementById("msg").innerHTML = "<h2>"+player+ " won</h2>";
+    document.getElementById("gameTable").onclick = null;
+    document.getElementById("body").style.backgroundImage = "url('https://bit.ly/2b3zvsr')";
   }
 };
