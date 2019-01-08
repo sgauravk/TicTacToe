@@ -6,7 +6,7 @@
     <script type="text/javascript" src="tic_tac_toe.js"></script>
   </head>
   <body id="body" class = "bgImage">
-    <div><h1 class="gameHeading">TIC-TAC-TOE</h1></div>
+    <div><h1>TIC-TAC-TOE</h1></div>
     <div class="playerButtonLabels">
       <p>
       <label for="first player name"> Enter First Player Name: </label>
@@ -19,23 +19,24 @@
       <button id="startGame" onclick="getPlayersName()" class="gameStartButton">
         Start
       </button>
+      <button onclick = "location.reload()">Reset</button>
     </div>
     <div id = "gameBoard" style= "display:none">
-      <table class="table" id="gameTable" onclick="playGame(event)">
+      <table id="gameTable" onclick="playGame(event)">
         <tr>
-          <td class="tableData" id="cell_1"> </td>
-          <td class="tableData" id="cell_2"> </td>
-          <td class="tableData" id="cell_3"> </td>
+          <td id="cell_1"> </td>
+          <td id="cell_2"> </td>
+          <td id="cell_3"> </td>
         </tr>
         <tr>
-          <td class="tableData" id="cell_4"> </td>
-          <td class="tableData" id="cell_5"> </td>
-          <td class="tableData" id="cell_6"> </td>
+          <td id="cell_4"> </td>
+          <td id="cell_5"> </td>
+          <td id="cell_6"> </td>
         </tr>
         <tr>
-          <td class="tableData" id="cell_7"> </td>
-          <td class="tableData" id="cell_8"> </td>
-          <td class="tableData" id="cell_9"> </td>
+          <td id="cell_7"> </td>
+          <td id="cell_8"> </td>
+          <td id="cell_9"> </td>
         </tr>
       </table>
     </div>

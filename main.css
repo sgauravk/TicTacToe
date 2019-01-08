@@ -3,13 +3,13 @@
   background-size: cover;
   background-color: black;
 }
-.table {
+table {
   border: 1px solid black;
   font-size: 100px;
   float: left;
   background-color: rgb(240, 199, 230);
 }
-.gameHeading {
+h1 {
   text-align: center;
   color: aqua;
   font-size: 60px;
@@ -23,7 +23,7 @@
   width: 850px;
   float: left;
 }
-.gameStartButton {
+button {
   width: 250px;
   font-family: serif;
   height: 50px;
@@ -40,7 +40,7 @@
   background-color: whitesmoke;
   border-radius: 15px;
 }
-.tableData {
+td {
   border: 3px solid black;
   text-align: center;
   height: 120px;
