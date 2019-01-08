@@ -5,16 +5,17 @@
     <link rel="stylesheet" type="text/css" href="main.css" />
     <script type="text/javascript" src="tic_tac_toe.js"></script>
   </head>
-  <body class = "bgImage">
+  <body id="body" class = "bgImage">
     <div><h1 class="gameHeading">TIC-TAC-TOE</h1></div>
     <div class="playerButtonLabels">
       <p>
-        <label for="first player name"> Enter First Player Name: </label>
-        <input id="firstPlayer" type="text" placeholder=" e.g. - player 1" />
+      <p>
+      <label for="first player name"> Enter First Player Name: </label>
+      <input id="firstPlayer" type="text" placeholder=" e.g. - player 1" />
       </p>
       <p>
-        <label for="second player name"> Enter Second Player Name: </label>
-        <input id="secondPlayer" type="text" placeholder=" e.g. - player 2" />
+      <label for="second player name"> Enter Second Player Name: </label>
+      <input id="secondPlayer" type="text" placeholder=" e.g. - player 2" />
       </p>
       <button id="startGame" onclick="getPlayersName()" class="gameStartButton">
         Start
@@ -22,25 +23,28 @@
     </div>
     <div id = "gameBoard" style= "display:none">
       <table class="table" id="gameTable" onclick="playGame(event)">
-          <tr>
-            <td class="tableData" id="cell_1"> </td>
-            <td class="tableData" id="cell_2"> </td>
-            <td class="tableData" id="cell_3"> </td>
-          </tr>
-          <tr>
-            <td class="tableData" id="cell_4"> </td>
-            <td class="tableData" id="cell_5"> </td>
-            <td class="tableData" id="cell_6"> </td>
-          </tr>
-          <tr>
-            <td class="tableData" id="cell_7"> </td>
-            <td class="tableData" id="cell_8"> </td>
-            <td class="tableData" id="cell_9"> </td>
-          </tr>
+        <tr>
+          <td class="tableData" id="cell_1"> </td>
+          <td class="tableData" id="cell_2"> </td>
+          <td class="tableData" id="cell_3"> </td>
+        </tr>
+        <tr>
+          <td class="tableData" id="cell_4"> </td>
+          <td class="tableData" id="cell_5"> </td>
+          <td class="tableData" id="cell_6"> </td>
+        </tr>
+        <tr>
+          <td class="tableData" id="cell_7"> </td>
+          <td class="tableData" id="cell_8"> </td>
+          <td class="tableData" id="cell_9"> </td>
+        </tr>
       </table>
     </div>
-    <div class="msgBox" id="msg">
-      <p> WELCOME </p>
-    </div>
+      </p>
+      <p>
+      <div class="msgBox" id="msg">
+        <p> WELCOME </p>
+      </div>
+      </p>
   </body>
 </html>
